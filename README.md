@@ -1,6 +1,6 @@
-# LLM Monitoring
+# Drift Tester
 
-LLM Monitoring runs the precision-reasoning performance benchmark through the
+Drift Test runs the precision-reasoning performance benchmark through the
 stable `support-bot-v1` alias. It measures exact-answer performance without
 accepting real user prompts.
 
