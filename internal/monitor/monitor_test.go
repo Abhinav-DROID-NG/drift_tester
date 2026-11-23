@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Abhinav-DROID-NG/LLM_Monitoring/internal/canary"
+	"github.com/Abhinav-DROID-NG/drift_tester/internal/canary"
 )
 
 type fakeUpstream struct{}

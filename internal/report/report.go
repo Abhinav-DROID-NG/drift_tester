@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Abhinav-DROID-NG/LLM_Monitoring/internal/monitor"
+	"github.com/Abhinav-DROID-NG/drift_tester/internal/monitor"
 )
 
 type CheckReport struct {

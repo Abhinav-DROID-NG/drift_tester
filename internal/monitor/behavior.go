@@ -9,7 +9,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/Abhinav-DROID-NG/LLM_Monitoring/internal/canary"
+	"github.com/Abhinav-DROID-NG/drift_tester/internal/canary"
 )
 
 // BehaviorThresholds controls the independent latency comparison. Behavioral

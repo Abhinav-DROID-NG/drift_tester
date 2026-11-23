@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/Abhinav-DROID-NG/LLM_Monitoring/internal/evaluation"
-	"github.com/Abhinav-DROID-NG/LLM_Monitoring/internal/monitor"
+	"github.com/Abhinav-DROID-NG/drift_tester/internal/evaluation"
+	"github.com/Abhinav-DROID-NG/drift_tester/internal/monitor"
 )
 
 type evaluationClient struct {
