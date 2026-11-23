@@ -1,0 +1,2421 @@
+{
+  "baseline_file": "data/baseline-20261113T155041Z.json",
+  "baseline_model": "qwen2.5:3b-instruct-fp16",
+  "evaluation_spec": {
+    "combined": 5,
+    "failure_cases": 7,
+    "single_layer": 9
+  },
+  "experiment_id": "eval-B(qwen2.5:3b-instruct-q8_0)-and-C(qwen2.5:3b-instruct-q4_K_M)-vs-A(qwen2.5:3b-instruct-fp16)",
+  "model_b": {
+    "avg_latency_sec": 0.00008396946564885499,
+    "below_baseline": 0,
+    "check_pass_rate": 0,
+    "comparisons": [
+      {
+        "canary_id": "CAP-E1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0.001,
+        "eval_latency_sec": 0.001
+      },
+      {
+        "canary_id": "CAP-E2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "CAP-E3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "CAP-G1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "CAP-G2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "CAP-G3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "CAP-X1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "CAP-X2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "CAP-X3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "DET-E1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "DET-E2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "DET-E3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "DET-G1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "DET-G2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "DET-G3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "DET-X1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "DET-X2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "DET-X3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "FMT-E1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "FMT-E2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "FMT-E3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "FMT-G1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "FMT-G2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "FMT-G3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "FMT-X1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0.001
+      },
+      {
+        "canary_id": "FMT-X2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "FMT-X3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "INS-E1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "INS-E2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "INS-E3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "INS-G1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "INS-G2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "INS-G3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "INS-X1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "INS-X2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "INS-X3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "LAT-E1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "LAT-E2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "LAT-E3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "LAT-G1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "LAT-G2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "LAT-G3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "LAT-X1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "LAT-X2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "LAT-X3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-CODE-01",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 1,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-CODE-02",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 3,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-CODE-03",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 3,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-CODE-04",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0.001
+      },
+      {
+        "canary_id": "QZ-CODE-05",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-CODE-06",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 4,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-CODE-07",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 3,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-CODE-08",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-CODE-09",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-CODE-10",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-LOGIC-01",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-LOGIC-02",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-LOGIC-03",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 1,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-LOGIC-04",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 1,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-LOGIC-05",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 1,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-LOGIC-06",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-LOGIC-07",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-LOGIC-08",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 1,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-LOGIC-09",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 1,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-LOGIC-10",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-LONG-01",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0.001
+      },
+      {
+        "canary_id": "QZ-LONG-02",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 6,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0.001
+      },
+      {
+        "canary_id": "QZ-LONG-03",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0.001
+      },
+      {
+        "canary_id": "QZ-LONG-04",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 4,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0.001
+      },
+      {
+        "canary_id": "QZ-LONG-05",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0.001
+      },
+      {
+        "canary_id": "QZ-LONG-06",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 5,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0.001
+      },
+      {
+        "canary_id": "QZ-LONG-07",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 3,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-LONG-08",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 4,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-LONG-09",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0.001
+      },
+      {
+        "canary_id": "QZ-LONG-10",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0.001
+      },
+      {
+        "canary_id": "QZ-MATH-01",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 6,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-MATH-02",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-MATH-03",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 3,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-MATH-04",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 3,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-MATH-05",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-MATH-06",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 1,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-MATH-07",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-MATH-08",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-MATH-09",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 3,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-MATH-10",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 3,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-STEP-01",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 5,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-STEP-02",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-STEP-03",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 1,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-STEP-04",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 3,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-STEP-05",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-STEP-06",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-STEP-07",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-STEP-08",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 3,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-STEP-09",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-STEP-10",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 3,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "REF-E1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "REF-E2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "REF-E3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "REF-G1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "REF-G2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "REF-G3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "REF-X1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "REF-X2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "REF-X3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "STY-E1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "STY-E2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "STY-E3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "STY-G1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "STY-G2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "STY-G3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "STY-X1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "STY-X2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "STY-X3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TOK-E1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TOK-E2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TOK-E3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TOK-G1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TOK-G2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TOK-G3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TOK-X1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TOK-X2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TOK-X3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TRN-E1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TRN-E2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TRN-E3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TRN-G1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TRN-G2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TRN-G3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TRN-X1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TRN-X2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TRN-X3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      }
+    ],
+    "drift_analysis": {
+      "detected": false,
+      "confidence": 0,
+      "predicted_layer": "unknown",
+      "evidence": [
+        "no comparable successful responses"
+      ]
+    },
+    "duration": "94.030628ms",
+    "metrics": {
+      "detection_accuracy": 0,
+      "false_negative_rate": 1,
+      "false_positive_rate": 0,
+      "layer_attribution_accuracy": 0,
+      "precision": 0,
+      "recall": 0
+    },
+    "model": "qwen2.5:3b-instruct-q8_0",
+    "with_baseline": 81
+  },
+  "model_c": {
+    "avg_latency_sec": 0.00006870229007633588,
+    "below_baseline": 0,
+    "check_pass_rate": 0,
+    "comparisons": [
+      {
+        "canary_id": "CAP-E1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0.001,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "CAP-E2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "CAP-E3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "CAP-G1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "CAP-G2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "CAP-G3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "CAP-X1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "CAP-X2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "CAP-X3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "DET-E1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "DET-E2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "DET-E3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "DET-G1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "DET-G2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "DET-G3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "DET-X1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "DET-X2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "DET-X3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "FMT-E1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "FMT-E2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "FMT-E3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "FMT-G1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "FMT-G2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "FMT-G3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "FMT-X1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "FMT-X2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "FMT-X3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "INS-E1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "INS-E2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "INS-E3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "INS-G1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "INS-G2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "INS-G3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "INS-X1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "INS-X2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "INS-X3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "LAT-E1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "LAT-E2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "LAT-E3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "LAT-G1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "LAT-G2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "LAT-G3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "LAT-X1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "LAT-X2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "LAT-X3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-CODE-01",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 1,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-CODE-02",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 3,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-CODE-03",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 3,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-CODE-04",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-CODE-05",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-CODE-06",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 4,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-CODE-07",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 3,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-CODE-08",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-CODE-09",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-CODE-10",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-LOGIC-01",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-LOGIC-02",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-LOGIC-03",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 1,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-LOGIC-04",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 1,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-LOGIC-05",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 1,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-LOGIC-06",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-LOGIC-07",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-LOGIC-08",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 1,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-LOGIC-09",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 1,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-LOGIC-10",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-LONG-01",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-LONG-02",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 6,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0.001
+      },
+      {
+        "canary_id": "QZ-LONG-03",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0.001
+      },
+      {
+        "canary_id": "QZ-LONG-04",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 4,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0.001
+      },
+      {
+        "canary_id": "QZ-LONG-05",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0.001
+      },
+      {
+        "canary_id": "QZ-LONG-06",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 5,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0.001
+      },
+      {
+        "canary_id": "QZ-LONG-07",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 3,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0.001
+      },
+      {
+        "canary_id": "QZ-LONG-08",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 4,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0.001
+      },
+      {
+        "canary_id": "QZ-LONG-09",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0.001
+      },
+      {
+        "canary_id": "QZ-LONG-10",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0.001
+      },
+      {
+        "canary_id": "QZ-MATH-01",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 6,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-MATH-02",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-MATH-03",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 3,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-MATH-04",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 3,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-MATH-05",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-MATH-06",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 1,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-MATH-07",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-MATH-08",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-MATH-09",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 3,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-MATH-10",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 3,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-STEP-01",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 5,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-STEP-02",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-STEP-03",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 1,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-STEP-04",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 3,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-STEP-05",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-STEP-06",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-STEP-07",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-STEP-08",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 3,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-STEP-09",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 2,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "QZ-STEP-10",
+        "status": "NEW",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 3,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "REF-E1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "REF-E2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "REF-E3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "REF-G1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "REF-G2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "REF-G3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "REF-X1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "REF-X2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "REF-X3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "STY-E1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "STY-E2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "STY-E3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "STY-G1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "STY-G2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "STY-G3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "STY-X1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "STY-X2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "STY-X3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TOK-E1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TOK-E2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TOK-E3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TOK-G1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TOK-G2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TOK-G3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TOK-X1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TOK-X2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TOK-X3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TRN-E1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TRN-E2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TRN-E3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TRN-G1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TRN-G2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TRN-G3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TRN-X1",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TRN-X2",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      },
+      {
+        "canary_id": "TRN-X3",
+        "status": "WITH_BASELINE",
+        "baseline_checks_passed": 0,
+        "eval_checks_passed": 0,
+        "total_checks": 0,
+        "baseline_latency_sec": 0,
+        "eval_latency_sec": 0
+      }
+    ],
+    "drift_analysis": {
+      "detected": false,
+      "confidence": 0,
+      "predicted_layer": "unknown",
+      "evidence": [
+        "no comparable successful responses"
+      ]
+    },
+    "duration": "85.838439ms",
+    "metrics": {
+      "detection_accuracy": 0,
+      "false_negative_rate": 1,
+      "false_positive_rate": 0,
+      "layer_attribution_accuracy": 0,
+      "precision": 0,
+      "recall": 0
+    },
+    "model": "qwen2.5:3b-instruct-q4_K_M",
+    "with_baseline": 81
+  },
+  "timestamp": "2026-11-13T18:26:44.486155163Z"
+}
