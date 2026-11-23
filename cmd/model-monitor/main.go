@@ -14,9 +14,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/Abhinav-DROID-NG/LLM_Monitoring/internal/canary"
-	"github.com/Abhinav-DROID-NG/LLM_Monitoring/internal/evalspec"
-	"github.com/Abhinav-DROID-NG/LLM_Monitoring/internal/monitor"
+	"github.com/Abhinav-DROID-NG/drift_tester/internal/canary"
+	"github.com/Abhinav-DROID-NG/drift_tester/internal/evalspec"
+	"github.com/Abhinav-DROID-NG/drift_tester/internal/monitor"
 )
 
 func main() {

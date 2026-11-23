@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/Abhinav-DROID-NG/LLM_Monitoring/internal/evaluation"
+	"github.com/Abhinav-DROID-NG/drift_tester/internal/evaluation"
 )
 
 type evaluationRequest struct {

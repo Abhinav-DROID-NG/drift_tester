@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	"github.com/Abhinav-DROID-NG/LLM_Monitoring/internal/monitor"
+	"github.com/Abhinav-DROID-NG/drift_tester/internal/monitor"
 )
 
 func TestBehavioralComparisonIsSharedByServerResults(t *testing.T) {

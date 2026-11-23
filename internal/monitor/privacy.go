@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Abhinav-DROID-NG/LLM_Monitoring/internal/canary"
+	"github.com/Abhinav-DROID-NG/drift_tester/internal/canary"
 )
 
 func ValidateObservations(library canary.Library, observations []Observation) error {
